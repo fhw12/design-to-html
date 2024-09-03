@@ -1,0 +1,40 @@
+body {
+    background-color: #F9F9F9;
+    padding-block: 40px;
+    padding-inline: 56px;
+    user-select: none;
+}
+
+.top-header,
+.top-header__left-element,
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-right: 8px;
+}
+
+.website-name {
+    font-size: 32px;
+    font-weight: 500;
+    color: #303031;
+    cursor: pointer;
+}
+
+.menu__item {
+    font-size: 20px;
+    font-weight: 500;
+    color: #303031;
+    cursor: pointer;
+}
+
+.menu__item--padding-right {
+    padding-right: 40px;
+}
+
+.menu__item--green-text {
+    color: #71A894;
+}
