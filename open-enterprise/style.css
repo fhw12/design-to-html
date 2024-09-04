@@ -1,8 +1,14 @@
+html {
+    font-size: 12px;
+}
+
 body {
     background-color: #F9F9F9;
-    padding-block: 40px;
-    padding-inline: 56px;
+    padding-block: 2.5rem;
+    padding-inline: 3.5rem;
     user-select: none;
+    font-family: sans-serif;
+    overflow-x: hidden;
 }
 
 .top-header,
@@ -13,28 +19,75 @@ body {
     align-items: center;
 }
 
+.top-header {
+    padding-bottom: 5rem;
+}
+
 .logo {
-    padding-right: 8px;
+    padding-right: 0.5rem;
 }
 
 .website-name {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 500;
     color: #303031;
     cursor: pointer;
 }
 
 .menu__item {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     color: #303031;
     cursor: pointer;
 }
 
 .menu__item--padding-right {
-    padding-right: 40px;
+    padding-right: 2.5rem;
 }
 
 .menu__item--green-text {
     color: #71A894;
+}
+
+.section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* .section1__left,
+.section1__right {
+    display: inline-block;
+} */
+
+.section1__right {
+    position: relative;
+}
+
+.section1__header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4rem;
+    padding-bottom: 1.5rem;
+}
+
+.section1__text {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.section1__right__img1,
+.section1__right__img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.early-access-button {
+    background-color: #71A894;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding: 20px 24px 20px 24px;
 }
