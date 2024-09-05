@@ -52,6 +52,7 @@ body {
 .section1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 450px;
 }
 
 /* .section1__left,
@@ -90,4 +91,18 @@ body {
     font-size: 1.125rem;
     font-weight: 700;
     padding: 20px 24px 20px 24px;
+}
+
+.section2 {
+    text-align: center;
+}
+
+.section2__header {
+    font-size: 3rem;
+    font-family:'Courier New', Courier, monospace;
+    padding-bottom: 24px;
+}
+
+.section2__text {
+    font-size: 1.125rem;
 }
