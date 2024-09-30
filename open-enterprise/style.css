@@ -59,6 +59,8 @@ body {
     font-weight: 400;
     line-height: 80px;
     padding-bottom: 1.5rem;
+    color: #303031;
+
 }
 
 .section1__text {
@@ -67,6 +69,8 @@ body {
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
+    color: #67645E;
+
 }
 
 .section1__right__img1,
@@ -164,12 +168,14 @@ body {
     font-weight: 400;
     line-height: 64px;
     margin-bottom: 24px;
+    color: #303031;
 }
 
 .section4__text {
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
+    color: #303031;
 }
 
 .section4__right {
@@ -189,6 +195,7 @@ body {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 32px;
+    color: #303031;
 }
 
 .section4__right__card-member {
@@ -210,6 +217,7 @@ body {
 .section4__right__card-member__info__name {
     font-size: 24px;
     font-weight: 600;
+    color: #303031;
 }
 
 .section4__right__card-member__info__text {
@@ -381,6 +389,7 @@ body {
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
+    color: #303031;
 }
 
 .section6__right__card2-applicant-right {
@@ -584,6 +593,8 @@ body {
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 40px;
+    color: #303031;
+
 }
 
 .section8__item1-button {
