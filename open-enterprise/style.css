@@ -515,6 +515,8 @@ body {
     font-weight: 700;
     line-height: 24px;
     margin-bottom: 16px;
+    text-align: left;
+    color: #303031;
 }
 
 .section7__post-content {
@@ -523,6 +525,8 @@ body {
     line-height: 24px;
     margin-bottom: 28px;
     text-align: left;
+    color: #303031;
+
 }
 
 .section7__post-info {
