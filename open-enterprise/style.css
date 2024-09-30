@@ -95,6 +95,7 @@ body {
 
 .section2 {
     text-align: center;
+    margin-bottom: 48px;
 }
 
 .section2__header {
@@ -105,4 +106,36 @@ body {
 
 .section2__text {
     font-size: 1.125rem;
+}
+
+.section3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+}
+
+.section3__card {
+    box-sizing: border-box;
+    padding: 64px 24px 64px 24px;
+    background-color: #FFFFFF;
+    color: #303031;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px 0px #0000001A;
+}
+
+.section3__card-icon {
+    padding-bottom: 24px;
+}
+
+.section3__card-title {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 16px;
+}
+
+.section3__card-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
 }
